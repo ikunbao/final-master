@@ -1,0 +1,324 @@
+body{
+font-family: 微軟正黑體;
+}
+html{
+scroll-behavior: smooth;
+}
+header{
+margin:0 auto;
+background-color:white;
+padding:15px 45px;
+width:1200px;
+height:20px;
+}
+img.logo{
+width:220px;
+height:200px;
+}
+.menu{
+margin:0 auto;
+width:1195px;
+background-color:white;
+text-align:right;
+padding:60px;
+font-size:30px;
+}
+.menu1{
+display:inline-block;
+margin:0px;
+}
+nav li{
+list-style-type: none;
+float:left;
+}
+nav li a{
+padding:30px;
+color:black;
+font-weight:bold;
+text-decoration:none;
+}
+nav li a:hover{
+color:green;
+text-decoration:underline;
+}
+/* 搜尋*/
+.search_text{
+padding: 10px;
+font-size: 17px;
+border: 1px solid grey;
+float: left;
+width: 88%;
+background-color: #f1f1f1;
+}
+.search_button{
+position: relative;
+top: -42px;
+right: -7px;
+width: 40px;
+height: 42px;
+padding: 10px;
+border: 1px solid grey;
+border-left: none; 
+background-color: #CADBAE;
+}
+img.searchlogo{
+position:absolute;
+top: 5px;
+right: 4.5px;
+width: 30px;
+height:auto;
+}
+.caveat{
+font-size: 20px;
+position: relative;
+top:20px;
+bottom:20px;
+right:20px;
+}
+.caveat img{
+position:relative;
+top:8px;
+width:30px;
+height:auto;
+}
+.dropdown{
+color:black;
+font-weight:bold;
+overflow: hidden;
+}
+.dropdown{
+margin: 0;
+}
+.dropdown-content{
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a{
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-size:20px;
+}
+.dropdown-content a:hover{
+background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+display: block;
+}
+.checkout1{
+margin:0 auto;
+width: 1200px;
+height:800px;
+border-style:groove;
+border-color:black;
+position: relative;
+top:0px;
+background-color:green;
+}
+.checkout2{
+width: 1150px;
+height:770px;
+border-style:groove;
+border-color:black;
+position: relative;
+top: 15px;
+left: 20px;
+background-color:#F5F5F5;
+overflow-x:hidden;
+overflow-y:auto;
+}
+.checkout_photo{
+width:280px;
+height:auto;
+}
+.delete{
+/*position:absolute;
+right:120px;
+top:120px;	*/
+width:30px;
+height:auto; 
+}
+.price{
+/*display:none;	*/
+font-size:26px;
+}
+.quantity{
+position: absolute;
+top:320px;
+left:170px;
+font-size:18px; 
+}
+.prices{
+/*position: absolute;
+top:329px;
+right:230px;*/
+font-size:26px;	
+color:red;
+}
+.nt{
+position: absolute;
+top:295px;
+right:330px;
+font-size:35px;	
+color:green;	
+}
+input[type="number"]{
+padding: 5px 10px;
+text-align:center;
+width:80px;
+background-color: white;	
+}
+[class="table2"]{
+position: absolute;
+left:136px;
+top:390px;
+border:2px black solid;
+text-align:center;
+padding-bottom:70px;
+padding-left:500px;
+padding-right:10px;
+padding-top:20px;
+}
+[class="td2"]{
+border:none;
+width:180px;
+padding: 10px;
+font-size:16px;
+border-bottom:2px solid green;  
+}
+[class="td3"]{
+border:none;
+width:180px;
+padding: 10px;
+font-size:16px;
+}
+[class="td4"]{
+border:none;
+width:180px;
+padding: 10px;
+font-size:25px;
+color:green;
+}
+input[type="button"]{
+/*position:absolute;
+bottom:200px;
+right:150px;*/
+color:white;
+border:1.2px solid green;
+background-color:green;
+border-radius:5px; 
+padding: 8px 50px;
+font-size:20px;
+z-index: 1;
+}
+input[type="button"]:hover{
+	opacity:0.8;
+}
+input[type="submit"]{
+/*position:absolute;
+bottom:200px;
+right:150px;*/
+color:white;
+border:1.2px solid green;
+background-color:green;
+border-radius:5px; 
+padding: 8px 50px;
+font-size:20px;
+z-index: 1;
+}
+input[type="submit"]:hover{
+	opacity:0.8;
+}
+table{
+	background-color:#F5F5F5;
+	margin-left:9.1px;
+	border:2px black solid;
+	text-align:center;
+}
+th{
+	/*border:2px black solid;*/
+	text-align:center;
+	padding:10px;
+	font-size:28px;
+}
+td{
+	/*border:2px black solid;*/
+	padding:0px;
+	width:80px;
+	height:120px;
+	font-size:24px;
+}
+.table_check{
+	width:30px;
+}
+.table_th_img{
+	width: 180px;
+}
+.table_img{
+	width: 180px;
+	height:120px;
+}
+.product_img{
+	width: 165px;
+	height:110px;
+}
+.table_deatil{
+	width: 450px;
+	height:120px;
+}
+.table_sumdollar{
+	text-align: left;
+	font-size:36px;
+	color:red;
+}
+.settle{
+position:absolute;
+bottom:225px;
+left:170px;
+font-size: 16px;
+}
+.footer{
+font-size:20px;
+text-align:center;
+margin:0 auto;
+background-color:#2E8B57;
+position: relative;
+top:0px;
+padding:0px 20px;
+width:1100px;
+height:0px;
+}
+img.fb{
+width: 70px;
+height: 70px;
+}
+.fb:hover{
+overflow:hidden;
+transform: scale(1.1);
+transition:all 0.5s ease 0s;
+}
+img.ig{
+width: 65px;
+height: 65px;
+}
+.ig:hover{
+overflow:hidden;
+transform: scale(1.1);
+transition:all 0.5s ease 0s;
+}
+.top{
+position:fixed;
+right:10px;
+bottom:20px;
+width: 70px;
+}
+.top:hover{
+width:60px;
+}

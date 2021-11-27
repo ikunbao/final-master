@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+	<head>
+		<meta charset="UTF-8">
+		<title>痴心蕨對</title>
+		<style>
+				@import url("asset/css/update11.css");
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<header>
+				<img src="asset/img/logo.png" class="logo">
+			</header>
+			<nav class=menu>
+				<ul class="menu1">
+					<li><a href="index.html">首頁</li></a>
+					<li>
+						<div class="dropdown">
+							<a>商品</a>
+							<div class="dropdown-content">
+								<a href="commodity1.html">鹿角蕨</a>
+								<a href="commodity2.html">空氣鳳梨</a>
+								<a href="commodity3.html">其他</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="checkout.html">購物車</li></a>
+					<li><a href="aboutus.html">關於我們</li></a>
+					<li>
+						<div class="dropdown">
+							<a>會員中心</a>
+							<div class="dropdown-content">
+								<a href="register.html">註冊</a>
+								<a href="login.html">登入</a>
+								<a href="member.html">會員資料</a>
+								<a href="member_order.html">訂單查詢</a>
+								<a href="update.html">後台管理</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<form>
+							<input  type="text" class="search_text" placeholder="搜尋.." name="search" autocomplete="off">
+							<button type="submit" class="search_button">
+							<img src="asset/img/searchlogo.png" class="searchlogo">
+							</button>
+						</form>
+					</li>
+					<div class="caveat">
+						<p>未登入請登入<a href="login.html"><img src="asset/img/arrow.png"></a><br>
+						你好&nbsp;睏寶，歡迎為您服務<br>
+						登出請按這<a href="index.html"><img src="asset/img/arrow.png"></a></p>
+					</div>
+				</ul>
+			</nav>
+		</div>
+		<div class="member1">
+			<div class="member2"><br>&nbsp;&nbsp;			
+				<input  type=button value="商品管理系統" style="font-family: 微軟正黑體; " onclick="location.href='update1.html'">&nbsp;&nbsp;
+				<input  type=button value="近期訂單系統" style="font-family: 微軟正黑體; " onclick="location.href='update2.html'">&nbsp;&nbsp;
+				<input  type=button value="會員資料統整" style="font-family: 微軟正黑體; " onclick="location.href='update3.html'">&nbsp;&nbsp;
+				<input  type=button value="近期商品評論" style="font-family: 微軟正黑體; " onclick="location.href='update4.html'"><hr>
+				<h1 style="text-align: center;">後台管理(商品管理系統)</h1>&nbsp;&nbsp;			
+				<input  type=button value="增加商品" style="font-family: 微軟正黑體; " onclick="location.href='update11.html'">&nbsp;&nbsp;
+				<input  type=button value="批次修改上架" style="font-family: 微軟正黑體; " onclick="location.href='update12.html'"><br><br>
+				<hr>
+				<form>
+					<table>
+						<tr>
+							<th>勾選上架</th>
+							<th>產品ID</th>
+							<th>產品名稱</th>
+							<th>價格</th>
+							<th>庫存量</th>
+							<th>上架情形</th>
+							
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="on_the_table" value="1"></td>
+							<td>1</td>
+							<td>愛麗絲X象耳</td>
+							<td>$800</td>
+							<td>10</td>
+							<td style="background-color: #99FFFF;">上架中</td>
+						</tr>
+					</table>
+					&nbsp;&nbsp;<input type="submit" value="進行批次上架"><br>
+				</form>
+				
+			</div>
+		</div>
+		<a href="#top">
+		<img class="top" src="asset/img/top.jpg"></a>
+		<footer class="footer">
+			<a href="https://www.facebook.com/%E7%97%B4%E5%BF%83%E8%95%A8%E5%B0%8D-111991503766977/" ><img src="asset/img/fb.png" class="fb"></a>
+			<a href="https://www.instagram.com/absolutfernsaholic/" ><img src="asset/img/ig.png" class="ig"></a>
+		</footer>
+	</body>
+</html>

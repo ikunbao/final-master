@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>痴心蕨對</title>
+		<style>
+				@import url("asset/css/member.css");
+		</style>
+		<script src="asset/js/member.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<header>
+				<img src="asset/img/logo.png" class="logo">
+			</header>
+			<nav class=menu>
+				<ul class="menu1">
+					<li><a href="index.html">首頁</li></a>
+					<li>
+						<div class="dropdown">
+							<a>商品</a>
+							<div class="dropdown-content">
+								<a href="commodity1.html">鹿角蕨</a>
+								<a href="commodity2.html">空氣鳳梨</a>
+								<a href="commodity3.html">其他</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="checkout.html">購物車</li></a>
+					<li><a href="aboutus.html">關於我們</li></a>
+					<li>
+						<div class="dropdown">
+							<a>會員中心</a>
+							<div class="dropdown-content">
+								<a href="register.html">註冊</a>
+								<a href="login.html">登入</a>
+								<a href="member.html">會員資料</a>
+								<a href="member_order.html">訂單查詢</a>
+								<a href="update.html">後台管理</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<form>
+							<input  type="text" class="search_text" placeholder="搜尋.." name="search" autocomplete="off">
+							<button type="submit" class="search_button">
+							<img src="asset/img/searchlogo.png" class="searchlogo">
+							</button>
+						</form>
+					</li>
+					<div class="caveat">
+						<p>未登入請登入<a href="login.html"><img src="asset/img/arrow.png"></a><br>
+						你好&nbsp;睏寶，歡迎為您服務<br>
+						登出請按這<a href="index.html"><img src="asset/img/arrow.png"></a></p>
+					</div>
+				</ul>
+			</nav>
+		</div>
+		<div class="member1">
+			<div class="member2">
+				<br><h1 style="text-align: center;">會員資料</h1>
+				<img src="asset/img/vip.png" class="vip">
+				<img src="asset/img/plant.png" class="plant">
+				<a href="member_order.html"><p class="url">訂單查詢</p></a>
+				<a href="change_password.html"><p class="url2">修改密碼</p></a>
+				<table>
+					<tr>
+						<th>睏寶</th>
+						<td class="td_typesetting">痴心蕨對會員卡</td>
+					</tr>
+					<tr>
+						<td >一般會員</td>
+						<td class="td_typesetting">永久校期</td>
+					</tr>
+				</table>
+				
+				<fieldset>
+					<legend><img src="asset/img/user.png">會員基本資料</legend>
+					<form  name="user" onsubmit="return validateForm()">
+						<div class="A">
+							<p class="one_typesetting">姓:</p>
+							<p class="two_typesetting">名:</p>
+						</div>
+						<div class="B">
+							<input  type="text" class="text"  value="睏" name="user1">
+							<input  type="text" class="text" value="寶" name="user2">
+						</div>
+						<div class="C">
+							<p class="one_typesetting">電子郵件:</p>
+							<p class="three_typesetting">電話號碼:</p>
+						</div>
+						<div class="D">
+							<input  type="text" class="text" value="hhh@email.com" name="user3">
+							<input  type="text" class="text" value="0800006990" name="user4">
+						</div>
+						<div class="E">
+							<p>地址:</p>
+							<input type="text" class="text"  value="桃園市中壢區普忠里中北路200號"name="user5">
+						</div>
+						<input type="submit"  value="填寫完成" >
+					</form>
+				</fieldset>
+			</div>
+		</div>
+		<a href="#top">
+		<img class="top" src="asset/img/top.jpg"></a>
+		<footer class="footer">
+			<a href="https://www.facebook.com/%E7%97%B4%E5%BF%83%E8%95%A8%E5%B0%8D-111991503766977/" ><img src="asset/img/fb.png" class="fb"></a>
+			<a href="https://www.instagram.com/absolutfernsaholic/" ><img src="asset/img/ig.png" class="ig"></a>
+		</footer>
+	</body>
+</html>

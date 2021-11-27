@@ -1,0 +1,191 @@
+body{
+font-family: 微軟正黑體;
+}
+html{
+scroll-behavior: smooth;
+}
+header{
+margin:0 auto;
+background-color:white;
+padding:15px 45px;
+width:1200px;
+height:20px;
+}
+img.logo{
+width:220px;
+height:200px;
+}
+.menu{
+margin:0 auto;
+width:1195px;
+background-color:white;
+text-align:right;
+padding:60px;
+font-size:30px;
+}
+.menu1{
+display:inline-block;
+margin:0px;
+}
+nav li{
+list-style-type: none;
+float:left;
+}
+nav li a{
+padding:30px;
+color:black;
+font-weight:bold;
+text-decoration:none;
+}
+nav li a:hover{
+color:green;
+text-decoration:underline;
+}
+/* 搜尋*/
+.search_text{
+padding: 10px;
+font-size: 17px;
+border: 1px solid grey;
+float: left;
+width: 80%;
+background-color: #f1f1f1;
+}
+.search_button{
+position: relative;
+top: -43px;
+right: -7px;
+width: 40px;
+height: 42px;
+padding: 10px;
+border: 1px solid grey;
+border-left: none; 
+background-color: #CADBAE;
+}
+img.searchlogo{
+position:absolute;
+top: 5px;
+right: 4.5px;
+width: 30px;
+height:auto;
+}
+.caveat{
+font-size: 20px;
+position: relative;
+top:20px;
+bottom:20px;
+right:20px;
+}
+.caveat img{
+position:relative;
+top:8px;
+width:30px;
+height:auto;
+}
+.dropdown{
+color:black;
+font-weight:bold;
+overflow: hidden;
+}
+.dropdown{
+margin: 0;
+}
+.dropdown-content{
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a{
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-size:20px;
+}
+.dropdown-content a:hover{
+background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+display: block;
+}
+.checkout1{
+margin:0 auto;
+width: 1200px;
+height:800px;
+border-style:groove;
+border-color:black;
+position: relative;
+top:0px;
+background-color:green;
+}
+.checkout2{
+width: 1150px;
+height:770px;
+border-style:groove;
+border-color:black;
+position: relative;
+top: 15px;
+left: 20px;
+background-color:#F5F5F5;
+overflow-x:auto;
+overflow-y:auto;
+}
+.cart{
+position:absolute;
+top:200px;
+left:420px;
+width:350px;
+height:auto;
+}
+h3{
+position:absolute;
+top:580px;
+left:484px;	
+}
+h4{
+position:absolute;
+top:630px;
+left:544px;	
+}
+.footer{
+font-size:20px;
+text-align:center;
+margin:0 auto;
+background-color:#2E8B57;
+position: relative;
+top:0px;
+padding:0px 20px;
+width:1100px;
+height:0px;
+}
+img.fb{
+width: 70px;
+height: 70px;
+}
+.fb:hover{
+overflow:hidden;
+transform: scale(1.1);
+transition:all 0.5s ease 0s;
+}
+img.ig{
+width: 65px;
+height: 65px;
+}
+.ig:hover{
+overflow:hidden;
+transform: scale(1.1);
+transition:all 0.5s ease 0s;
+}
+.top{
+position:fixed;
+right:10px;
+bottom:20px;
+width: 70px;
+}
+.top:hover{
+width:60px;
+}

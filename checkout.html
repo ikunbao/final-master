@@ -1,0 +1,131 @@
+<html lang="zh-tw">
+	<head>
+		<meta charset="UTF-8">
+		<title>痴心蕨對</title>
+		<style>
+				@import url("asset/css/checkout.css");
+				@import url("asset/css/search_main.css");
+		</style>
+		<script type="text/javascript">
+		function prices(a){
+		document.getElementById("prices").innerHTML=parseInt(document.getElementById("price").innerHTML)*a.value;}
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<header>
+				<img src="asset/img/logo.png" class="logo">
+			</header>
+			<nav class=menu>
+				<ul class="menu1">
+					<li><a href="index.html">首頁</li></a>
+					<li>
+						<div class="dropdown">
+							<a>商品</a>
+							<div class="dropdown-content">
+								<a href="commodity1.html">鹿角蕨</a>
+								<a href="commodity2.html">空氣鳳梨</a>
+								<a href="commodity3.html">其他</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="checkout.html">購物車</li></a>
+					<li><a href="aboutus.html">關於我們</li></a>
+					<li>
+						<div class="dropdown">
+							<a>會員中心</a>
+							<div class="dropdown-content">
+								<a href="register.html">註冊</a>
+								<a href="login.html">登入</a>
+								<a href="member.html">會員資料</a>
+								<a href="member_order.html">訂單查詢</a>
+								<a href="update.html">後台管理</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<form>
+							<input  type="text" class="search_text" placeholder="搜尋.." name="search" autocomplete="off">
+							<button type="submit" class="search_button">
+							<img src="asset/img/searchlogo.png" class="searchlogo">
+							</button>
+						</form>
+					</li>
+					<div class="caveat">
+						<p>未登入請登入<a href="login.html"><img src="asset/img/arrow.png"></a><br>
+						你好&nbsp;睏寶，歡迎為您服務<br>
+						登出請按這<a href="index.html"><img src="asset/img/arrow.png"></a></p>
+					</div>
+				</ul>
+			</nav>
+		</div>
+		<div class="checkout1">
+			<div class="checkout2">
+				<br><h1 style="text-align: center;">購物車</h1>
+				<table>
+					<tr>
+						<th class='table_check'></th>
+						<th class='table_th_img'>圖片</th>
+						<th>商品明細</th>				
+						<th>價格</th>
+						<th>數量</th>
+						<th>小計</th>
+						<th>庫存</th>
+						<th >取消</th>
+					</tr>
+					<tr>
+						<td class='table_check'></td>
+						<td class='table_img'><img src='asset/img/plant1.jpg' class='product_img'></td>
+						<td class='table_deatil'>產品名稱</td>
+						<td><span id="price" class="price">800</span></td>
+						<td><input type="number" class="number"  value="1" min="1" max="10" onchange="prices(this)"></td>						
+						<td><span id="prices" class="prices">800</span></td>
+						<td>10</td>
+						<td ><a href='???.html'><img class="delete" src="asset/img/cancel.png"></a></td>
+					</tr>
+					<tr>
+						<td class='table_check'></td>
+						<td class='table_img'><img src='asset/img/plant1.jpg' class='product_img'></td>
+						<td class='table_deatil'>產品名稱</td>
+						<td><span id="price" class="price">800</span></td>
+						<td><input type="number" class="number"  value="1" min="1" max="10" onchange="prices(this)"></td>						
+						<td><span id="prices" class="prices">800</span></td>
+						<td>10</td>
+						<td ><a href='???.html'><img class="delete" src="asset/img/cancel.png"></a></td>
+					</tr>
+					<tr>
+						<td class='table_check'></td>
+						<td colspan='7' style='text-align: left;'>
+							<a>運送方式：</a>
+							<select style="font-family: 微軟正黑體; ">
+								<option value="">ATM付款</option>
+								<option value="">貨到付款</option>
+								<option value="">超商貨到付款</option>
+								<option value="">信用卡</option>
+							</select><br>
+							<a>郵寄地址 : </a><br>
+							<textarea cols=50 rows=3 name=location STYLE='resize:none;'></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td class='table_check'></td>
+						<td colspan='7' style='text-align: left;'>
+							<a>訂單保留剩餘時間：167小時32分19秒</a><br><br>
+							<input type="submit"  value="購買完成" >
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<a href="#top">
+		<img class="top" src="asset/img/top.jpg"></a>
+		<footer class="footer">
+			<a href="https://www.facebook.com/%E7%97%B4%E5%BF%83%E8%95%A8%E5%B0%8D-111991503766977/" ><img src="asset/img/fb.png" class="fb"></a>
+			<a href="https://www.instagram.com/absolutfernsaholic/" ><img src="asset/img/ig.png" class="ig"></a>
+		</footer>
+		<script type="text/javascript">
+		function prices(a){
+		document.getElementById("prices").innerHTML=parseInt(document.getElementById("price").innerHTML)*a.value;}
+		</script>
+	</body>
+</html>

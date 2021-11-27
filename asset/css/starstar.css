@@ -1,0 +1,18 @@
+.ratings {
+position: relative;
+vertical-align: middle;
+display: inline-block;
+color: white; 
+overflow: hidden;
+font-size: 24px;
+text-shadow: 0px 1px 0 #999;
+}
+.full_star {
+width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+white-space: nowrap;
+overflow: hidden;
+color:green; 
+}
